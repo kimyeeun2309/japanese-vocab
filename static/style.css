@@ -1,0 +1,98 @@
+/* 전체 배경 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("../static/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #222;
+}
+
+/* 헤더 스타일 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-controls input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.user-icon {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+
+/* 메인 콘텐츠 */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+.intro {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.text-box h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.learn-btn {
+  display: inline-block;
+  background: #a5d8ff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kana-box {
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+}
+
+.kana {
+  font-weight: bold;
+}
+
+.line {
+  width: 3px;
+  height: 100px;
+  background: black;
+  margin: 0 20px;
+  transform: rotate(20deg);
+}
